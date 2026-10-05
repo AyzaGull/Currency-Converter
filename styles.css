@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff6fa3, #ffbad2);
+     font-family: Arial, sans-serif; 
+}
+
+h1 {
+  white-space: nowrap;
+}
+.container {
+    height: 45vmin;       
+    width: 45vmin;
+    background: rgba(255, 192, 203, 0.15); 
+    padding: 2.5rem;
+    border-radius: 1rem;
+    min-height: 55vh;
+    border: 0.09rem solid rgba(255, 105, 180, 0.4);
+    backdrop-filter: blur(1.25rem);
+    -webkit-backdrop-filter: blur(1.25rem);
+    box-shadow:
+        0 0 2.5rem 0 rgba(255, 20, 147, 0.6),   
+        inset 0 0 3rem rgba(255, 105, 180, 0.3);   
+    color: #fff;
+}
+
+form {
+    padding: 2rem 1rem 0 0;
+}
+form select, button, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    height: 3rem;
+    background: rgba(255, 192, 203, 0.15); 
+    color: #fff;
+    box-shadow: 0 0 0.5rem rgba(255, 105, 180, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    border: 1px solid rgba(255, 182, 193, 0.5);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    background: rgba(255, 192, 203, 0.15);
+    box-shadow: 0 0 1rem rgba(255, 105, 180, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.msg {
+    margin: 2rem 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #d14792;
+}
+
+form button {
+    font-size: 1rem;
+    height: 2.5rem;
+    background-color: rgba(163, 32, 117, 0.9);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 1.5rem rgba(255, 20, 147, 0.7);
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 0.75rem;
+}
+
+form button:hover {
+    background-color: rgba(163, 32, 117, 1);
+    cursor: pointer;
+}
+
+select:hover {
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
